@@ -1,0 +1,61 @@
+/*External style sheet for html documents in coding assignments.*/ 
+
+/*the wrapper is going to style my whole webpage*/
+
+
+#wrapper { background-color: #ffe4c4;
+            width: 960px;
+            margin-right: auto;
+            border: 2px dashed black;
+        }
+
+/*this is class selector selecting only and styling only my mentioned sections in my documents */
+.header1 { font-weight: bold;
+            background-color: #ffa500;
+            text-indent: 1em; 
+            text-align: center;
+        }
+
+p   {  text-align: right;
+                font-family:'Times New Roman', Times, serif;
+                border: 5px dashed #ffa500;
+            }
+.header2 { text-align: left;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background-color: #ffa500;
+            text-indent: 1em;
+        }
+
+.header3 { text-align:right;
+            border: 1px dashed #ffd700;
+            font-style: italic;
+        }
+
+.header4 { text-align: center;
+            font-size: small;
+            color: grey;
+        }
+/*styling solely the mentioned element using element selectors*/ 
+nav { text-align: center;
+        font-style: italic;
+        font-weight: bold;
+    }
+/*this listyletype is telling the computer how to display the unorder list or the UL element; with tiny little squares per element*/ 
+nav ul { list-style-type: none;}
+
+.squaredots{ list-style-type: square;}
+/*this is removing the underline per hyperlink element when textdecoration is set to "none */ 
+a { text-decoration: none;}
+
+table { border: 3px solid #ffd700;
+        border-collapse: collapse;}
+thead {background-color: #ffe4c4;
+        color: grey;}
+tr:nth-last-of-type(even){ background-color: #ffa500;}
+caption { background-color: #ffd700;
+            font-weight: bold;
+            color: grey;}
+td { font-weight: bold;
+        color: grey;}
+form { font-family: 'Courier New', Courier, monospace;
+        background-color: #ffa500}
